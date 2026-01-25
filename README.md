@@ -97,6 +97,11 @@ skills/obsidian-clipper-template-creator/
 - [Agent Skills Official Site](https://agentskills.io/home) - Complete guide to the Agent Skills standard
 - [Cursor Agent Skills](https://cursor.com/docs/context/skills) - Cursor-specific implementation guide
 
+### Community Skill Collections
+
+- [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) - Curated repository of high-quality agent skills; this skill is included there as well
+- [Skills Directory](https://skills.sh) - Open agent skills directory with one-command installs
+
 ## License
 
 Apache License 2.0 - See [LICENSE.txt](LICENSE.txt) for details.
