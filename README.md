@@ -12,11 +12,9 @@ This skill enables AI agents (Claude Code, Cursor, Gemini CLI, etc.) to help you
 - ✅ Validates variables and provides reference documentation
 - 📦 Includes example templates (recipes, general clipping)
 
-## Installation
+## Compatibility
 
 This skill follows the universal **SKILL.md** format and works with any AI coding assistant that supports agentic skills.
-
-### Compatibility
 
 | Tool                | Type | Compatibility | Installation Path                    |
 |---------------------|------|---------------|--------------------------------------|
@@ -27,7 +25,7 @@ This skill follows the universal **SKILL.md** format and works with any AI codin
 | **Antigravity IDE** | IDE  | ✅ Full        | `.agent/skills/`                      |
 | **OpenCode**        | CLI  | ✅ Full        | `.opencode/skills/` or `.claude/skills/` |
 
-### Installation
+## Installation
 
 1. Download or clone this repository
 2. Copy the `skills/obsidian-clipper-template-creator/` folder to your agent's skills directory
