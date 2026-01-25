@@ -16,14 +16,14 @@ This skill enables AI agents (Claude Code, Cursor, Gemini CLI, etc.) to help you
 
 This skill follows the universal **SKILL.md** format and works with any AI coding assistant that supports agentic skills.
 
-| Tool                | Type | Compatibility | Installation Path                    |
-|---------------------|------|---------------|--------------------------------------|
-| **Claude Code**     | CLI  | ✅ Full        | `.claude/skills/` or `.agent/skills/` |
-| **Cursor**          | IDE  | ✅ Full        | `.cursor/skills/` or project root     |
-| **Gemini CLI**      | CLI  | ✅ Full        | `.gemini/skills/` or `.agent/skills/` |
-| **Codex CLI**       | CLI  | ✅ Full        | `.codex/skills/` or `.agent/skills/`  |
-| **Antigravity IDE** | IDE  | ✅ Full        | `.agent/skills/`                      |
-| **OpenCode**        | CLI  | ✅ Full        | `.opencode/skills/` or `.claude/skills/` |
+| Tool | Type | Compatibility | Installation Path |
+| ------ | ------ | --------------- | ------------------ |
+| **Claude Code** | CLI | ✅ Full | `.claude/skills/` or `.agent/skills/` |
+| **Cursor** | IDE | ✅ Full | `.cursor/skills/` or project root |
+| **Gemini CLI** | CLI | ✅ Full | `.gemini/skills/` or `.agent/skills/` |
+| **Codex CLI** | CLI | ✅ Full | `.codex/skills/` or `.agent/skills/` |
+| **Antigravity IDE** | IDE | ✅ Full | `.agent/skills/` |
+| **OpenCode** | CLI | ✅ Full | `.opencode/skills/` or `.claude/skills/` |
 
 ## Installation
 
@@ -38,12 +38,12 @@ Most tools auto-discover skills in `.agent/skills/`.
 
 This skill contains hardcoded references to `Templates/Bases/` as the default path for your Obsidian Base schemas. **You must edit the skill files to configure your vault path before using the skill.**
 
-#### Files to Edit:
+#### Files to Edit
 
 1. **`SKILL.md`** - Main skill file with workflow instructions
 2. **`references/bases-workflow.md`** - Contains path references in the workflow documentation
 
-#### Setup Steps:
+#### Setup Steps
 
 1. **Edit both SKILL.md and references/bases-workflow.md**
 2. **Replace all instances of `Templates/Bases/`** with your actual Obsidian bases directory path
@@ -54,13 +54,14 @@ The skill expects your Base schemas to be in `*.base` files within your configur
 
 Once installed, trigger the skill by asking your AI agent to create an Obsidian Clipper template:
 
-```
+```text
 "Create an Obsidian Web Clipper template for YouTube videos"
 "Help me make a clipper template for recipe sites"
 "I want to clip articles to Obsidian"
 ```
 
 The agent will:
+
 1. Identify your intent and check for existing Base schemas
 2. Ask for a sample URL to analyze (if not provided)
 3. Extract metadata and structure from the page
@@ -68,7 +69,7 @@ The agent will:
 
 ## What's Included
 
-```
+```text
 skills/obsidian-clipper-template-creator/
 ├── SKILL.md                      # Main skill definition
 ├── assets/
@@ -85,12 +86,14 @@ skills/obsidian-clipper-template-creator/
 ## Resources
 
 ### Obsidian Web Clipper
+
 - [Web Clipper Documentation](https://help.obsidian.md/web-clipper)
 - [Variables](https://help.obsidian.md/web-clipper/variables)
 - [Filters](https://help.obsidian.md/web-clipper/filters)
 - [Templates](https://help.obsidian.md/web-clipper/templates)
 
 ### Agent Skills Documentation
+
 - [Agent Skills Official Site](https://agentskills.io/home) - Complete guide to the Agent Skills standard
 - [Cursor Agent Skills](https://cursor.com/docs/context/skills) - Cursor-specific implementation guide
 
